@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto sei lontano da Cesano?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quanto sei lontano da Cesano di Roma?</h1>
+        <p>Inserisci una città, un indirizzo o delle coordinate per scoprirlo.</p>
+
+        <div class="input-group">
+            <input type="text" id="locationInput" placeholder="Es: Torre Eiffel, Parigi">
+            <button id="calculateBtn">Calcola!</button>
+        </div>
+
+        <div id="result-container" class="hidden">
+            <!-- L'animazione "ridicola" apparirà qui -->
+            <div id="animation" class="hidden">
+                <div class="rocket">🚀</div>
+                <p>Calcolo in corso con tecnologie iper-avanzate...</p>
+            </div>
+            <!-- Il risultato finale apparirà qui -->
+            <div id="distanceResult" class="hidden"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
